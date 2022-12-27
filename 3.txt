@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style> 
+body {
+  background-image: url("/Users/apple/Desktop/IMG_7075.JPG");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+#myDIV {
+  background-color: lightblue;
+  animation: mymove 20s infinite;
+}
+
+@keyframes mymove {
+  50% {margin-top: 200px;}
+}
+</style>
+</head>
+<body>
+
+<h1 style="color:LightGray;">推荐电视剧：风声</h1>
+
+<p style="color:white;">《风声》是麦家“中国谍战小说之父”的代表作之一，讲述了抗日后期，日军为追捕中共地下党高级间谍老鬼，将司令部五人困于裘庄捉鬼的故事。选段讲诉中共地下党李宁玉和军统间谍顾晓梦从相互猜疑到揭开身份以真面目相对并结下深厚情谊；在李宁玉被锁定准备自尽殉国的前一晚，顾晓梦为李宁玉弹琴送别，忆往昔互诉衷肠的情节。</p>
+<video width="400" controls>
+      <source src="/Users/apple/Desktop/配音.mp4 " type="video/mp4">
+      Your browser does not support HTML5 video.
+    </video>
+  </div>
+<div id="myDIV">
+我的配音秀.
+</div>
+<div class="footer">
+	<div id="fenye">
+    	<a href="file:///Users/apple/Desktop/2.html">&lt;&lt;上一页</a>
+        <a href="file:///Users/apple/Desktop/web.html">1</a>
+        <a href="file:///Users/apple/Desktop/2.html">2</a>
+        <a href="file:///Users/apple/Desktop/3.html">3</a>
+        <a href="">下一页&gt;&gt;</a>
+</div>
+
+
+</body>
+</html>
